@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial;
+              padding: 10px;
+              background: #f1f1f1;
+            }
+            
+            /* Header/Blog Title */
+            .header {
+              padding: 30px;
+              text-align: center;
+              background: rgb(240, 236, 236);
+            }
+            
+            .header h1 {
+              font-size: 50px;
+            }
+            
+            /* Style the top navigation bar */
+            .topnav {
+              overflow: hidden;
+              background-color: rgb(44, 44, 44);
+            }
+            
+            /* Style the topnav links */
+            .topnav a {
+              float: left;
+              display: block;
+              color: #ede0e0;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            /* Change color on hover */
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            
+            /* Create two unequal columns that floats next to each other */
+            /* Left column */
+            .leftcolumn {   
+              float: left;
+              width: 75%;
+            }
+            
+            /* Right column */
+            .rightcolumn {
+              float: left;
+              width: 25%;
+              background-color: #e6e6e6;
+              padding-left: 20px;
+            }
+            
+            /* Fake image */
+            .fakeimg {
+              background-color: #aaa;
+              width: 100%;
+              padding: 20px;
+            }
+            
+            /* Add a card effect for articles */
+            .card {
+              background-color: white;
+              padding: 20px;
+              margin-top: 20px;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Footer */
+            .footer {
+              padding: 20px;
+              text-align: center;
+              background: #ddd;
+              margin-top: 20px;
+            }
+            
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+              .leftcolumn, .rightcolumn {   
+                width: 100%;
+                padding: 0;
+              }
+            }
+            
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+              .topnav a {
+                float: none;
+                width: 100%;
+              }
+            }
+            
+            table, tr, td{
+                            border: 1px solid black;
+                            border-collapse: collapse;
+                            }
+                            italic,li, p{
+                             font-style: italic;
+                            }
+                            .p2 {
+                            font-family: Arial, Helvetica, sans-serif;
+                            }
+            </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="health_and_beauty-removebg-preview.png" width="120" height="100">
+          </div>
+          
+          <div class="topnav">
+            <a href="Untitled-1.html">Home</a>
+            <a href="Skincare.html">Skincare</a>
+            <a href="Health.html">Health</a>
+            <a href="Personal Care.html">Personal Care</a>
+            <a href="Hair Care.html">Hair Care</a>
+            <a href="Men.html">Men</a>
+            <a href="About.html" style="float:right">about</a>
+          </div>
+
+        <h1>JCS1104H</h1>
+
+
+
+        <table align="right">
+            <tr >
+                <td><a href="Untitled-1.html">1</td>
+                    <td><a href="Skincare.html">2</td>
+                    <td><a href="Health.html">3</td>
+                    <td><a href="Personal Care.html">4</td>
+                    <td><a href="Hair Care.html">5</td>
+                    <td><a href="Men.html">6</td>
+                    <td><a href="About.html">7</td>
+            </tr>
+        </table>
+    </body>
+</html>
